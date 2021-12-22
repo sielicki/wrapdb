@@ -6,7 +6,7 @@
     "arduinocore-avr", "cpr", "glew", "hinnant-date", "imgui-sfml",
     "jsoncpp", "libtomcrypt", "libxmlpp", "openal-soft", "openh264", "pcre2",
     "protobuf-c", "pugixml", "quazip", "sdl2", "sdl2_image", "sdl2_mixer",
-    "sdl2_net", "sdl2_ttf", "zstd"
+    "sdl2_net", "sdl2_ttf"
   ],
   "skip_windows": [
     "arduinocore-avr", "box2d", "cjson", "cpr", "docopt",
@@ -18,7 +18,7 @@
     "libxml2", "libxmlpp", "lua", "lzo2", "mocklibc", "mpdecimal", "netstring-c",
     "nng", "openh264", "openssl", "pcre2", "protobuf", "protobuf-c", "pugixml",
     "quazip", "rdkafka", "reflex", "sdl2", "sdl2_image", "sdl2_mixer",
-    "sdl2_net", "sdl2_ttf", "termbox", "unit-system", "xxhash", "zstd"
+    "sdl2_net", "sdl2_ttf", "termbox", "unit-system", "xxhash"
   ],
 
   "fluidsynth": {
@@ -94,6 +94,11 @@
     "debian_packages": [
       "libwayland-bin",
       "libwayland-dev"
+    ]
+  },
+  "zstd": {
+    "build_options": [
+      "buildtype=release"
     ]
   }
 }
