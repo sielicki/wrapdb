@@ -37,6 +37,11 @@
       "cpp_std=c++14"
     ]
   },
+  "cpr": {
+    "debian_packages": [
+      "libcurl4-openssl-dev"
+    ]
+  },
   "box2d": {
     "build_options": [
       "cpp_std=c++14"
