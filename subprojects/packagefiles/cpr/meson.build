@@ -1,5 +1,5 @@
 project('cpr', 'cpp', 
-    version : '1.7.2',
+    version : '1.8.1',
     license : 'MIT', 
     default_options : ['cpp_std=c++11']
 )
